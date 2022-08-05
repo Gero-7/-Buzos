@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.title-h2{
+    text-align: center;
+    color: gray;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.flex-article{
+    display: flex;
+    flex-wrap: nowrap;
+    border: dotted 2px red;
+}
+.w-100{
+    width: 100%;
+}
+.text-des{
+    text-align: center;
+    color: black;
+    font-family:'Times New Roman';
+    font-size: 14px;
+}
+.text-price{
+    text-align: center;
+    color: #3E2723;
+    font-size: 15px;
+}

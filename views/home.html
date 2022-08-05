@@ -4,44 +4,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <!-- fuente de iconos, de donde sacar -->
+    <script src="https://kit.fontawesome.com/102ba3bcbd.js" crossorigin="anonymous"></script>
+    <!-- Hojas de estilos utiles -->
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/utils.css" />
+    <link rel="stylesheet" href="/css/theme.css" />
+    <!-- Medias Queries -->
+    <link rel="stylesheet" href="/css/styles-sm.css" media="(min-width:480px)" />
+    <link rel="stylesheet" href="/css/styles-lg.css" media="(min-width:1280px)" />
     <title>420buzos</title>
 </head>
 <body>
     <header>
+        <!-- Nav mobile -->
+        <nav id="nav-bar">
+            <ul class="barra-search">
+                <li class="item-bar"><a href=""><i class="fa-solid fa-bars"></i></a></li>
+                <li class="item-search"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li class="item-user"><a href=""><i class="fa-solid fa-user"></i></a></li>
+                <li class="item-carrito"><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+            <div class="logo-mobile">
+                <a href=""><img src="/images/WhatsApp Image 2022-08-04 at 3.28.06 PM.jpeg" alt="" width="100%"></a>
+            </div>
+        </nav>
+        <!-- NAV 1 -->
+        <nav class="nav-one">
         <ul>
-            <li>language</li>
-            <li>My Account</li>
-            <li>Wish List</li>
-            <li>Shopping Cart</li>
-            <li>Checkout</li>
+            <li><a href=""> language</a></li>
+            <li><a href=""> My Account</a></li>
+            <li><a href=""> Wish List</a></li>
+            <li><a href=""> Shopping Cart</a></li>
+            <li><a href=""> Checkout</a></li>
         </ul>
-         <nav>
-            <p>Barra de busqueda</p>
-            <p>logitos</p>
-         </nav>
+        </nav>
+        <!-- Buscadores -->
+        <div class="content-desktop">
+            <div>
+           <a href=""><img src="/images/WhatsApp Image 2022-08-04 at 3.28.06 PM.jpeg" alt=""></a>
+            </div>
+            <div>
+            <div>
+           <input type="text" placeholder="Search">
+           <i class="fa-solid fa-magnifying-glass"></i>
+            </div> 
+            <div>
+                <a href=""><i class="fa-solid fa-heart"></a></i>
+            </div>
+            <div>
+               <a href=""><i class="fa-solid fa-user"></a></i>
+            </div>
+            <div>
+                <a href=""><i class="fa-solid fa-cart-shopping"></a></i>
+            </div>
+            </div>
+        </div>
+        <!-- NAV 2 -->
+        <nav class="nav-two">
          <ul>
-            <li>Casa</li>
-            <li>NEW</li>
-            <li>CLOTHING</li>
-            <li>SHOES</li>
-            <li>ACCESSORIES</li>
-            <li>SKATE</li>
-            <li>SCOOTER</li>
-            <li>SNOW</li>
-            <li>SALE</li>
-            <li>BLOG</li>
-            <li>BRANDS</li>
+            <li><a href=""><i class="fa-solid fa-house-chimney"></i></a></li>
+            <li><a href="">NEW</a></li>
+            <li><a href="">CLOTHING</a></li>
+            <li><a href="">SHOES</a></li>
+            <li><a href="">ACCESSORIES</a></li>
+            <li><a href="">SKATE</a></li>
+            <li><a href="">SCOOTER</a></li>
+            <li><a href="">SNOW</a></li>
+            <li><a href="">SALE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">BRANDS</a></li>
          </ul>
-
+        </nav>
     </header>
-    <main>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+    <img src="/images/WhatsApp Image 2022-08-04 at 3.26.36 PM.jpeg" alt="" width="100%">
+    <!-- Main ----- Productos  -->
+    <main> 
+        <h2 class="title-h2">Latest Products</h2>
+        <section>
+            <div class="flex-article">
+             <div class="product-wraper">
+                <article class="produc">
+                    <img src="/images/remera.jpeg" alt="" class="w-100">
+                    <div class="product-contenet">
+                        <p class="text-des">HUF X TRASHER PORTOLA T-SHIERT-BLACK</p>
+                        <p class="text-price">135$</p>
+                        <div>
+                            <input type="radio">
+                            <label for="">SMALL</label>
+                            <input type="radio">
+                            <label for="">MEDIUM</label>
+                            <input type="radio">
+                            <label for="">LARGE</label>
+                            <input type="radio">
+                            <label for="">X-LARGE</label>
+                        </div>
+                    </div>
+                 </article>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-
-    </footer>
 </body>
 </html>
