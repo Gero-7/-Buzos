@@ -17,27 +17,31 @@
     <link rel="stylesheet" href="/css/theme.css" />
     <!-- Medias Queries -->
     <link rel="stylesheet" href="/css/styles-sm.css" media="(min-width:480px)" />
+    <link rel="stylesheet" href="/css/styles-md.css" media="(min-width:880px)" />
     <link rel="stylesheet" href="/css/styles-lg.css" media="(min-width:1280px)" />
     <title>420buzos</title>
 </head>
 <body>
-    <header>
+    <header class="background-black">
         <!-- Nav mobile -->
-        <nav id="nav-bar">
+        <div>
+        <nav id="nav-bar-mobile">
             <ul class="barra-search">
                 <li class="item-bar"><a href=""><i class="fa-solid fa-bars"></i></a></li>
                 <li class="item-search"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
                 <li class="item-user"><a href=""><i class="fa-solid fa-user"></i></a></li>
                 <li class="item-carrito"><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
             </ul>
-            <div class="logo-mobile">
-                <a href=""><img src="/images/WhatsApp Image 2022-08-04 at 3.28.06 PM.jpeg" alt="" width="100%"></a>
-            </div>
         </nav>
+        <div class="logo-mobile">
+            <a href=""><img src="/images/WhatsApp Image 2022-08-04 at 3.28.06 PM.jpeg" alt="" width="100%"></a>
+        </div>
         <!-- NAV 1 -->
-        <nav class="nav-one">
-        <ul>
-            <li><a href=""> language</a></li>
+        <nav class="nav-top">
+            <div>
+               <h4>Language</h4>
+            </div>
+        <ul class="nav-top-list">
             <li><a href=""> My Account</a></li>
             <li><a href=""> Wish List</a></li>
             <li><a href=""> Shopping Cart</a></li>
@@ -45,29 +49,34 @@
         </ul>
         </nav>
         <!-- Buscadores -->
-        <div class="content-desktop">
-            <div>
-           <a href=""><img src="/images/WhatsApp Image 2022-08-04 at 3.28.06 PM.jpeg" alt=""></a>
+        <div class="main-header-medium">
+            <div class="container-header-medium-1">
+            <img src="/images/WhatsApp Image 2022-08-04 at 3.28.06 PM.jpeg" alt="">
             </div>
-            <div>
-            <div>
-           <input type="text" placeholder="Search">
-           <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="container-header-medium-2">
+            <div class="medium-2-search">
+              <input type="text" placeholder="Search" class="container-header-medium-2-search">
+                <button class="button-transform">  
+                <i class="fa-solid fa-magnifying-glass black"></i>
+                </button>
             </div> 
+           <div class="medium-2-iconos">
             <div>
-                <a href=""><i class="fa-solid fa-heart"></a></i>
+               <a href=""><i class="fa-solid fa-heart icon-medium"></a></i>
+            </div>
+            <div >
+               <a href=""><i class="fa-solid fa-user icon-medium"></a></i>
             </div>
             <div>
-               <a href=""><i class="fa-solid fa-user"></a></i>
-            </div>
-            <div>
-                <a href=""><i class="fa-solid fa-cart-shopping"></a></i>
+               <a href=""><i class="fa-solid fa-cart-shopping icon-medium"></a></i>
             </div>
             </div>
+            </div>
+        
         </div>
         <!-- NAV 2 -->
-        <nav class="nav-two">
-         <ul>
+        <nav class="nav-buttom">
+         <ul class="nav-buttom-list">
             <li><a href=""><i class="fa-solid fa-house-chimney"></i></a></li>
             <li><a href="">NEW</a></li>
             <li><a href="">CLOTHING</a></li>
@@ -84,31 +93,77 @@
     </header>
     <img src="/images/WhatsApp Image 2022-08-04 at 3.26.36 PM.jpeg" alt="" width="100%">
     <!-- Main ----- Productos  -->
-    <main> 
+<main> 
         <h2 class="title-h2">Latest Products</h2>
-        <section>
-            <div class="flex-article">
+ <section>
+     <div class="flex-article">
              <div class="product-wraper">
-                <article class="produc">
+                <article>
                     <img src="/images/remera.jpeg" alt="" class="w-100">
                     <div class="product-contenet">
-                        <p class="text-des">HUF X TRASHER PORTOLA T-SHIERT-BLACK</p>
+                        <p class="text-description">HUF X TRASHER PORTOLA T-SHIERT-BLACK</p>
                         <p class="text-price">135$</p>
-                        <div>
-                            <input type="radio">
-                            <label for="">SMALL</label>
-                            <input type="radio">
-                            <label for="">MEDIUM</label>
-                            <input type="radio">
-                            <label for="">LARGE</label>
-                            <input type="radio">
-                            <label for="">X-LARGE</label>
+                        <div class="product-medidas-indumentaria">
+                            <p class="text-talle">SMALL</p>
+                            <p class="text-talle">MEDIUM</p>
+                            <p class="text-talle">LARGE</p>
+                            <p class="text-talle">X-LARGE</p>
                         </div>
                     </div>
                  </article>
-                </div>
+             </div>
+
+            <div class="product-wraper">
+                <article>
+                    <img src="/images/remera.jpeg" alt="" class="w-100">
+                    <div class="product-contenet">
+                        <p class="text-description">HUF X TRASHER PORTOLA T-SHIERT-BLACK</p>
+                        <p class="text-price">135$</p>
+                        <div class="product-medidas-indumentaria">
+                            <p class="text-talle">SMALL</p>
+                            <p class="text-talle">MEDIUM</p>
+                            <p class="text-talle">LARGE</p>
+                            <p class="text-talle">X-LARGE</p>
+                        </div>
+                    </div>
+                </article>
             </div>
-        </section>
-    </main>
+
+            <div class="product-wraper">
+                <article>
+                    <img src="/images/remera.jpeg" alt="" class="w-100">
+                    <div class="product-contenet">
+                        <p class="text-description">HUF X TRASHER PORTOLA T-SHIERT-BLACK</p>
+                        <p class="text-price">135$</p>
+                        <div class="product-medidas-indumentaria">
+                            <p class="text-talle">SMALL</p>
+                            <p class="text-talle">MEDIUM</p>
+                            <p class="text-talle">LARGE</p>
+                            <p class="text-talle">X-LARGE</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+     </div>
+  </section>
+  <!-- Seccion 2 -->
+  <img src="/images/banner-2.jpeg" alt="" class="w-100 margin-top-bottom">
+  <section>
+     <div class="flex-article">
+        <div class="product-wraper">
+            <article>
+                <img src="/images/Zapas.jpeg" alt="" class="w-100">
+                <div class="product-content">
+                    <p class="text-description">NEW BALANCE ALLISTON 617 SKATE SHOES - OLIVE N-DURE</p>
+                    <p class="text-price">29.99$</p>
+                </div>
+                <div class="product-medidas">
+                    
+                </div>
+            </article>
+        </div>
+     </div>
+  </section>
+</main>
 </body>
 </html>

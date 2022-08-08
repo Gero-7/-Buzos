@@ -11,13 +11,26 @@
 }
 .flex-article{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     border: dotted 2px red;
 }
 .w-100{
     width: 100%;
 }
-.text-des{
+.w-50{
+    width: 50%;
+}
+.w-35{
+    width: 35%;
+}
+.w-15{
+    width: 15%;
+}
+.margin-top-bottom{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.text-description{
     text-align: center;
     color: black;
     font-family:'Times New Roman';
@@ -27,4 +40,25 @@
     text-align: center;
     color: #3E2723;
     font-size: 15px;
+}
+.text-talle{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.background-black{
+    background-color: black;
+}
+.white{
+    color: white;
+}
+
+.icon-medium{
+    color: white;
+    font-size: 20px;
+    margin-top: 8px;
+}
+.icon-position{
+    width: 15%;
+    margin-left: 5px;
 }

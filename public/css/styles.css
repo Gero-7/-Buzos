@@ -1,19 +1,19 @@
-/* Nav-one */
-.nav-one ul{
+/* Nav-top */
+.nav-top ul{
     list-style-type: none;
     padding-left: 0;
 }
-.nav-one a{
+.nav-top a{
     text-decoration: none;
     color: black;
 }
-/*  Nav-two */
-.nav-two ul {
+/*  Nav-buttom */
+.nav-buttom ul {
     list-style-type: none;
     padding-left: 0;
 }
 
-.nav-two a {
+.nav-buttom a {
     text-decoration: none;
     color: black;
 }
@@ -41,6 +41,7 @@
 }
 .item-bar i{
     font-size: 15px;
+    color: white;
 }
 .item-search{
     width: 12%;
@@ -48,6 +49,7 @@
 }
 .item-search i{
     font-size: 20px;
+    color: white;
 }
 .item-user {
     width: 12%;
@@ -56,6 +58,7 @@
 
 .item-user i {
     font-size: 15px;
+    color: white;
 }
 .item-carrito {
     width: 12%;
@@ -64,6 +67,7 @@
 
 .item-carrito i {
     font-size: 15px;
+    color: white;
 }
 /* Main */
 .main-content{
@@ -73,11 +77,27 @@
 .product-wraper{
     width: 50%;
 }
-.product{
-    border: solid 1px white;
-}
 .product-content{
     border-bottom: solid 1px gray;
 }
-/*  */
- 
+.product-medidas-indumentaria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.product-medidas-shoes{
+    
+}
+
+/* DESCATIVO LOS CAMBIOS */
+.nav-top {
+    display: none;
+}
+
+.nav-buttom {
+    display: none;
+}
+
+.main-header-medium {
+    display: none;
+}
