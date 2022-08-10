@@ -71,7 +71,7 @@
 }
 /* Main */
 .main-content{
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 .product-wraper{
@@ -88,7 +88,30 @@
 .product-medidas-shoes{
     
 }
-
+.nav-envios-two{
+    padding: 16px;
+    margin: 4% 0% 3% 0%;
+    background-color: black;
+}
+.nav-envios-two ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.content-nav-envios{
+    display: flex;
+    justify-content:space-around ;
+    color: white;
+}
+.content-categorias-two{
+    display: flex;
+    justify-content:center;
+    list-style-type: none;
+    padding-left: 0 ;
+}
+.content-categorias-two li {
+    font-size: 30px;
+    margin-left: 18px;
+}
 /* DESCATIVO LOS CAMBIOS */
 .nav-top {
     display: none;
@@ -100,4 +123,22 @@
 
 .main-header-medium {
     display: none;
+}
+
+/*  */
+.content-bio{
+  width: 47%;
+}
+
+/* fOOTER */
+.top-mobile-footer{
+    width: 90%;
+    margin: auto;
+    background-color: black;
+}
+.content-mobile-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
 }

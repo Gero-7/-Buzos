@@ -9,9 +9,18 @@
     margin-top: 10px;
     font-size: 20px;
 }
+.title-line{
+    border-bottom: solid 2px black;
+}
 .flex-article{
     display: flex;
     flex-wrap: wrap;
+    border: dotted 2px red;
+}
+.flex-article-biografias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     border: dotted 2px red;
 }
 .w-100{
@@ -29,6 +38,9 @@
 .margin-top-bottom{
     margin-top: 30px;
     margin-bottom: 30px;
+}
+.text-center{
+    text-align: center;
 }
 .text-description{
     text-align: center;
@@ -52,7 +64,9 @@
 .white{
     color: white;
 }
-
+.red{
+    color: red;
+}
 .icon-medium{
     color: white;
     font-size: 20px;
