@@ -87,3 +87,14 @@
 .content-bio-separador{
     margin: 0% 2% 0% 2%;
 }
+/* Footer */
+.content-footer{
+  width: 75%;
+  margin: auto;
+}
+.content-media-footeer{
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
