@@ -78,7 +78,7 @@
     width: 50%;
 }
 .product-content{
-    border-bottom: solid 1px gray;
+    border-bottom: solid 4px transparent;
 }
 .product-medidas-indumentaria{
     display: flex;
@@ -86,7 +86,13 @@
     justify-content: space-evenly;
 }
 .product-medidas-shoes{
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.select-talle{
+    border-radius: 30px;
+    width: 50%;
 }
 .nav-envios-two{
     padding: 16px;
