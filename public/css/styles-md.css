@@ -67,10 +67,10 @@
 .medium-2-iconos a{
     margin-right: 15px;
 }
-/*  */
+/* Nav */
 .nav-buttom{
     display:block;
-    background-color:#747A69;
+    background-color:#595959;
     padding: 15px 20px;
 }
 .nav-buttom-list{
@@ -88,13 +88,107 @@
     margin: 0% 2% 0% 2%;
 }
 /* Footer */
+.content-mobile-footer{
+    display: none;
+}
+
+
 .content-footer{
-  width: 75%;
+  width: 100%;
   margin: auto;
 }
 .content-media-footeer{
-    background-color: aquamarine;
+    background-color: #595959;
     display: flex;
     flex-wrap: wrap;
+    justify-content:space-around;
+}
+.content-media-footeer ul{
+    list-style-type:none ;
+}
+.content-contact-media{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.content-contact-media li{
+    margin-left: 20px;
+}
+.content-contact-media p {
+    margin-left: 25px;
+}
+.icono-contact-media{
+  color: white;
+  font-size: 30px;
+}
+.contact-media{
+    display: flex;
+    flex-wrap: wrap;
+    width: 10%;
+    /* height: max-content; */
+    align-items: center;
+}
+.button-contact{
+    border-radius: 20px;
+    width: 200%;
+    padding: 8px;
+}
+/*  */
+.content-md-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box-one-logo-redes{
+ margin-right: 18px;
+}
+.box-one-content-one {
+   margin-top: 15px;
+}
+.box-one-content-one ul{
+    list-style-type: none;
+    color: white;
+}
+.box-two-p{
+    margin-top: 25px;
+}
+.box-two-p p{
+    color: gray;
+}
+.box-three-content-redes{
+    margin-top: 15px;
+}
+.box-three-content-redes ul{
+    list-style-type: none;
+    color: gray;
+    display: flex;
     justify-content: space-between;
+}
+.box-three-content-redes ul i{
+    font-size: 35px;
+}
+
+.box-content-a{
+   margin-right: 60px;
+}
+.box-content-a h4{
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+}
+.box-content-a ul{
+    list-style-type: none;
+    color:gray;
+    margin-top: 40px;
+}
+.box-content-a ul li{
+    margin-top: 10px;
+}
+
+.form-newslleter{
+    margin-top: 30px;
+}
+.form-newslleter label{
+    color: white;
+    font-size: 25px;
 }

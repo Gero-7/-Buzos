@@ -12,6 +12,10 @@
 .title-line{
     border-bottom: solid 2px black;
 }
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
 .flex-article{
     display: flex;
     flex-wrap: wrap;
@@ -66,6 +70,9 @@
 }
 .red{
     color: red;
+}
+.gray{
+    color: gray;
 }
 .icon-medium{
     color: white;
