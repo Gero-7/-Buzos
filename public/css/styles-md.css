@@ -103,6 +103,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
+    padding: 10px;
 }
 .content-media-footeer ul{
     list-style-type:none ;
@@ -117,6 +118,11 @@
 }
 .content-contact-media p {
     margin-left: 25px;
+}
+.content-mail-number-hs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .icono-contact-media{
   color: white;
@@ -185,7 +191,9 @@
 .box-content-a ul li{
     margin-top: 10px;
 }
-
+.content-form{
+    margin-left: 5%;
+}
 .form-newslleter{
     margin-top: 30px;
 }
