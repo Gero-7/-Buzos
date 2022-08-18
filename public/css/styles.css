@@ -161,6 +161,10 @@
 .content-md-footer{
     display: none;
 }
+.content-media-footeer{
+    display: none;
+}
+
 .content-footer{
     width: 90%;
     margin: auto;
