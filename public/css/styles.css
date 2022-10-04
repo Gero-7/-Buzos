@@ -13,22 +13,23 @@
     padding-left: 0;
 }
 
-.nav-buttom a {
+.nav-buttom a{
     text-decoration: none;
-    color: black;
+    color:black
 }
 /* Nav-MOBILE */
 .logo-mobile{
     text-align: center;
     padding: 10px 15px;
 }
+
 #nav-bar ul{
     list-style-type: none;
     padding-left: 0;
 }
 #nav-bar a{
     text-decoration: none;
-    color: black;
+    color:white;
 }
 .barra-search{
     display: flex;
@@ -41,15 +42,15 @@
 }
 .item-bar i{
     font-size: 15px;
-    color: white;
+    color: black
 }
 .item-search{
-    width: 12%;
+    width: 12%; 
     padding: 10px;
 }
 .item-search i{
     font-size: 20px;
-    color: white;
+    color:black
 }
 .item-user {
     width: 12%;
@@ -58,7 +59,7 @@
 
 .item-user i {
     font-size: 15px;
-    color: white;
+    color: black
 }
 .item-carrito {
     width: 12%;

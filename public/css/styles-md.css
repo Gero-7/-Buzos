@@ -201,3 +201,12 @@
     color: white;
     font-size: 25px;
 }
+.form-newslleter input{
+    border-radius: 5px;
+    padding: 5px;
+}
+.form-newslleter button{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: aliceblue;
+}
